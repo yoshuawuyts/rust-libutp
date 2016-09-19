@@ -1,0 +1,12 @@
+[root]
+name = "libutp"
+version = "1.0.0"
+dependencies = [
+ "gcc 0.3.35 (registry+https://github.com/rust-lang/crates.io-index)",
+]
+
+[[package]]
+name = "gcc"
+version = "0.3.35"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+
