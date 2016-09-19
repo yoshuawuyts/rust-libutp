@@ -1,5 +1,6 @@
 #include <stdio.h>
 
-int mannnn () {
-  printf("Hello World");
+int hello_hello () {
+  printf("Hello World\n");
+  return 0;
 }

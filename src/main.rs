@@ -1,9 +1,10 @@
-#![feature(libc)]
-
-extern crate libc;
-
-use libc::size_t;
+#[link(name="hello", kind="static")]
+extern {
+  fn hello_hello () -> i32;
+}
 
 fn main () {
-  println!("oi");
+  unsafe {
+    hello_hello();
+  };
 }

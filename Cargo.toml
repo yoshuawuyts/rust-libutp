@@ -1,6 +1,6 @@
 [package]
 name = "libutp"
-links = "hello"
+links = "libhello"
 build = "build.rs"
 version = "1.0.0"
 
