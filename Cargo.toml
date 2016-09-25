@@ -1,5 +1,5 @@
 [package]
-name = "libutpp"
+name = "libutp"
 links = "libutp"
 build = "build.rs"
 version = "1.0.0"

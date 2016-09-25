@@ -1,10 +1,10 @@
 #[link(name="utp", kind="static")]
 extern {
-  fn hello_hello () -> i32;
+  fn utp_create_socket ();
 }
 
 fn main () {
   unsafe {
-    hello_hello();
+    utp_create_socket();
   };
 }
