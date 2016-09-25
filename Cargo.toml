@@ -1,11 +1,8 @@
 [package]
-name = "libutp"
-links = "libhello"
+name = "libutpp"
+links = "libutp"
 build = "build.rs"
 version = "1.0.0"
-
-# [[bin]]
-# name = "ucat"
 
 [build-dependencies]
 gcc = "0.3"

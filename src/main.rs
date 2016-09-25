@@ -1,4 +1,4 @@
-#[link(name="hello", kind="static")]
+#[link(name="utp", kind="static")]
 extern {
   fn hello_hello () -> i32;
 }
