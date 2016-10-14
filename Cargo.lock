@@ -10,3 +10,5 @@ name = "gcc"
 version = "0.3.35"
 source = "registry+https://github.com/rust-lang/crates.io-index"
 
+[metadata]
+"checksum gcc 0.3.35 (registry+https://github.com/rust-lang/crates.io-index)" = "91ecd03771effb0c968fd6950b37e89476a578aaf1c70297d8e92b6516ec3312"

@@ -1,5 +1,10 @@
 use std::net::UdpSocket;
 
+extern crate libutp;
+
+// This is the `ucat` utility. It's a proof of concept binding reference for
+// libutp. This implementation is by no means meant to be performant or
+// efficient, and mostly relies on stdlib functions
 fn main () {
   // let socket = UdpSocket::bind("127.0.0.1:34254").unwrap();
 
